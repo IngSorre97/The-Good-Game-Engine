@@ -1,0 +1,3 @@
+[submodule "TheGoodGameEngine/vendor/spdlog"]
+	path = TheGoodGameEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
