@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\TheGoodGameEngine\Log.h" />
     <ClInclude Include="src\TheGoodGameEngine.h" />
     <ClInclude Include="src\TheGoodGameEngine\Application.h" />
     <ClInclude Include="src\TheGoodGameEngine\Core.h" />
     <ClInclude Include="src\TheGoodGameEngine\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\TheGoodGameEngine\Log.cpp" />
     <ClCompile Include="src\TheGoodGameEngine\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
