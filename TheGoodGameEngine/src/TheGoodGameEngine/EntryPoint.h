@@ -6,7 +6,11 @@ extern tgge::Application* tgge::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Powered by 'The Good Game Engine'...\n");
+	tgge::Log::Init();
+	TGGE_CORE_INFO("Initializing Log system...");
+
+	TGGE_CLIENT_INFO("Powered by 'The Good Game Engine'...");
+
 	auto application = tgge::CreateApplication();
 	application->Run();
 	delete application;
