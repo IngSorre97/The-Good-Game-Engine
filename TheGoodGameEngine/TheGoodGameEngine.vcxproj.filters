@@ -1,42 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="TheGoodGameEngine">
+      <UniqueIdentifier>{1F0E0C14-8B24-0AAA-D49B-95CB40F1DA31}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\TheGoodGameEngine\Core.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClInclude Include="src\TheGoodGameEngine.h" />
     <ClInclude Include="src\TheGoodGameEngine\Application.h">
-      <Filter>Header Files</Filter>
+      <Filter>TheGoodGameEngine</Filter>
     </ClInclude>
-    <ClInclude Include="src\TheGoodGameEngine.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="src\TheGoodGameEngine\Core.h">
+      <Filter>TheGoodGameEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\TheGoodGameEngine\EntryPoint.h">
-      <Filter>Header Files</Filter>
+      <Filter>TheGoodGameEngine</Filter>
     </ClInclude>
     <ClInclude Include="src\TheGoodGameEngine\Log.h">
-      <Filter>Header Files</Filter>
+      <Filter>TheGoodGameEngine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\TheGoodGameEngine\Application.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>TheGoodGameEngine</Filter>
     </ClCompile>
     <ClCompile Include="src\TheGoodGameEngine\Log.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>TheGoodGameEngine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
