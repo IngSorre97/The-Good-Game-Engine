@@ -18,6 +18,11 @@ project "TheGoodGameEngine"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    includedirs
+    {
+      "%{prj.name}/src"
+    }
+
     buildoptions "/utf-8"
 
     files

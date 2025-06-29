@@ -4,6 +4,9 @@
     <Filter Include="TheGoodGameEngine">
       <UniqueIdentifier>{1F0E0C14-8B24-0AAA-D49B-95CB40F1DA31}</UniqueIdentifier>
     </Filter>
+    <Filter Include="TheGoodGameEngine\Events">
+      <UniqueIdentifier>{23C19E8F-0FE6-ED0F-3831-D39F24B5EC2D}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\TheGoodGameEngine.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\TheGoodGameEngine\EntryPoint.h">
       <Filter>TheGoodGameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TheGoodGameEngine\Events\ApplicationEvent.h">
+      <Filter>TheGoodGameEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TheGoodGameEngine\Events\Event.h">
+      <Filter>TheGoodGameEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TheGoodGameEngine\Events\KeyEvent.h">
+      <Filter>TheGoodGameEngine\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TheGoodGameEngine\Events\MouseEvent.h">
+      <Filter>TheGoodGameEngine\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\TheGoodGameEngine\Log.h">
       <Filter>TheGoodGameEngine</Filter>
