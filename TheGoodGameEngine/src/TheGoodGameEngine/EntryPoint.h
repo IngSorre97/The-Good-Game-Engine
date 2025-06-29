@@ -9,7 +9,7 @@ int main(int argc, char** argv)
 	tgge::Log::Init();
 	TGGE_CORE_INFO("Initializing Log system...");
 
-	TGGE_CLIENT_INFO("Powered by 'The Good Game Engine'...");
+	TGGE_INFO("Powered by 'The Good Game Engine'...");
 
 	auto application = tgge::CreateApplication();
 	application->Run();

@@ -5,7 +5,7 @@ class SandboxApplication : public tgge::Application
 public:
 	SandboxApplication()
 	{
-		TGGE_CLIENT_INFO(" *** Welcome to the first Sandbox application! ***\n");
+		TGGE_INFO(" *** Welcome to the first Sandbox application! ***\n");
 	}
 
 	~SandboxApplication()
