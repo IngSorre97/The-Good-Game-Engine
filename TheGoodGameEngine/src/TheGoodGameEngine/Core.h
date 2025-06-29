@@ -9,3 +9,5 @@
 #else
 	#error The Good Game Engine support is limited to Windows!
 #endif
+
+#define BIT(x) (1 << x)
